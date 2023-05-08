@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("fundoazulroberto.png");
+    background-size: cover;
+}
+
+main{
+    margin: 0 auto;
+    width: 70em;
+    text-align: center;
+}
+.destaque{
+    display: flex;
+    text-align: center;
+    margin-bottom: 5em;
+   /* justify-content: space-between;*/
+}
+
+header{
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+}
+h1 img{
+    height: 200px;
+    padding-left: 1em;
+    text-align: left;
+}
+
+header ol{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+}
+
+header nav{
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+header a:hover{
+    color: red;
+}
+
+main{
+    text-align: center;
+}
+
+.inicio{
+    height: 28em;
+    width: 42em;
+    margin: 0;
+}
+
+.inicio figure{
+    height: 28em;
+    width: 42em;
+
+}
+
+.inicio img{
+    height: 450px;
+}
+
+.inicio figcaption{
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    opacity: 70%;
+    color: #9E0000;
+    font-family: georgia;
+    padding: 10px;
+    float: left;
+    position: relative;
+    padding: 1em;
+    margin-top: -4em;
+}
+
+aside{
+    height: 28em;
+    width: 10em;
+    text-align: right;
+    margin-left: 2em;;
+
+}
+
+aside div{
+    height: 4em;
+    width: 8em;
+    background-color: white;
+    margin-bottom: 2em;
+}
+
+aside h2{
+    font-family: arial;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+
+.pron figure{
+    background-image: url("fotos/roberto2.jpg");
+    background-size: cover;
+    width: 26em;
+    height: 10em;
+    margin-bottom: 2em;
+}
+
+.pron figcaption{
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    opacity: 70%;
+    color: #9E0000;
+    font-family: arial;
+    padding: 5px;
+    float: right;
+    position: relative;
+    margin-top: 7.7em;
+
+}
+
+.rcp figure{
+    background-image: url("fotos/robertoperi.jpg");
+    background-size: cover;
+    width: 26em;
+    height: 10em;
+    margin-top: 10em;
+}
+
+.rcp figcaption{
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    opacity: 70%;
+    color: rgb(140, 0 ,0);
+    font-family: arial;
+    padding: 5px;
+    float: right;
+    position: relative;
+    margin-top: 7.7em;
+    width: 27.05em;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 70em;
+}
+
+.cards div{
+    height: 14em;
+    width: 20em;
+    margin-bottom: 5em;
+}
+
+.recordes{
+    background-image: url("fotos/roberto7.jpg");
+    background-size: cover;
+    border: 8px solid rgb(140, 0 ,0, 0.6);
+}
+
+.recordes figcaption{
+    text-align: center;
+    font-size: 20px;
+    background-color: #9E0000;
+    opacity: 70%;
+    color: white;
+    font-family: arial;
+    padding: 5px;
+    float: right;
+    position: relative;
+    margin-top: 7.25em;
+    width: 15.5.61em;
+}
+
+.qna{
+    background-image: url("fotos/roberto5.jpg");
+    background-size: cover;
+    border: 8px solid rgb(140, 0 ,0, 0.6);
+}
+
+.qna figcaption{
+    text-align: center;
+    font-size: 20px;
+    background-color: #9E0000;
+    opacity: 70%;
+    color: white;
+    font-family: arial;
+    padding: 5px;
+    float: right;
+    position: relative;
+    margin-top: 7.25em;
+    width: 15.5.61em;
+}
+
+.anitta{
+    background-image: url("fotos/robertoanitta.jpg");
+    background-size: cover;
+    border: 8px solid rgb(140, 0 ,0, 0.6);
+}
+
+.anitta figcaption{
+    text-align: center;
+    font-size: 20px;
+    background-color: #9E0000;
+    opacity: 70%;
+    color: white;
+    font-family: arial;
+    padding: 17px;
+    float: right;
+    position: relative;
+    margin-top: 7.25em;
+    width: 15.5.61em;
+}
+
+.mv{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
+}
+
+.mv div{
+    background-color: rgb(140, 0 ,0, 0.9);
+    padding: 2em;
+    text-align: left;
+    color: white;
+    width: 20em;
+}
+
+.mv h2{
+    font-family: arial;
+    color: white;
+}
+
+.mv a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.mv a:hover{
+    color: lightskyblue;
+}
+
+footer{
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+footer h1 img{
+    width: 208px;
+}
+
+.socialmed{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    width: 208px;
+   /* margin-right: -30em;
+    margin-top: -4em;
+    padding-left: 30em;*/
+}
+
+footer li{
+    display: inline;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color: red;
+}
+
+.nav{
+    list-style-type: none;
+    font-family: arial;
+    text-align: center;
+   /* margin-right: -30em;
+    margin-top: -4em;
+    padding-left: 1em;*/
+}
+
+.socialmed img{
+    height: 32px;
+    text-align: right;
+}

@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("fundoazulroberto.png");
+    background-size: cover;
+    text-align: center;
+}
+
+header{
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+header li img{
+    height: 32px;
+}
+
+h1 img{
+    height: 200px;
+    padding-left: 1em;
+    text-align: left;
+}
+
+header ol{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+header a:hover{
+    color: red;
+}
+
+footer{
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+footer h1 img{
+    width: 208px;
+}
+
+.socialmed{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    width: 208px;
+   /* margin-right: -30em;
+    margin-top: -4em;
+    padding-left: 30em;*/
+}
+
+footer li{
+    display: inline;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color: red;
+}
+
+.nav{
+    list-style-type: none;
+    font-family: arial;
+    text-align: center;
+   /* margin-right: -30em;
+    margin-top: -4em;
+    padding-left: 1em;*/
+}
+
+.socialmed img{
+    height: 32px;
+    text-align: right;
+}
+
+h2{
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+}
+
+h4{
+    text-align: left;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+
+.n{
+    border: 1px solid white;
+    font-family: arial;
+    width: 9em;
+    height: 18.25em;
+    font-size: 20px;
+    text-align: left;
+    padding: 1em;
+    margin-right: 2em;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.n a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+.produtos{
+    display: grid;
+    grid-template-areas: "a b c d e" "f g h i j" "k l m n o";
+    grid-template-columns: 0fr 0fr 0fr;
+    grid-template-rows: 12em 12em 12em;
+    gap: 1em;
+  /*  margin-top: 1em;*/
+    justify-content: center;
+}
+
+.produtos div{
+    height: 10em;
+    width: 10em;
+    border: 2px solid white;
+}
+
+.produtos figcaption{
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+    opacity: 80%;
+    color: #9E0000;
+    font-family: arial;
+    padding: 5px;
+    float: right;
+    position: relative;
+    margin-top: 7.3em;
+}
+
+.boneco{
+    background-image: url("loja/boneco.jpg");
+    background-size: cover;
+}
+
+.toalha{
+    background-image: url("loja/toalha.jpg");
+    background-size: cover;
+}
+
+.camisa1{
+    background-image: url("loja/camisa.jpg");
+    background-size: cover;
+}
+
+.camisa2{
+    background-image: url("loja/camisa2.jpg");
+    background-size: cover;
+}
+
+.camisa3{
+    background-image: url("loja/camisa3.jpg");
+    background-size: cover;
+}
+
+.camisa4{
+    background-image: url("loja/camisa4.jpg");
+    background-size: cover;
+}
+
+.camisa5{
+    background-image: url("loja/camisa5.jpg");
+    background-size: cover;
+}
+
+.camisa6{
+    background-image: url("loja/camisa6.jpg");
+    background-size: cover;
+}
+
+.caneca1{
+    background-image: url("loja/caneca1.jpg");
+    background-size: cover;
+}
+
+.caneca2{
+    background-image: url("loja/caneca2.jpg");
+    background-size: cover;
+}
+
+.caneca3{
+    background-image: url("loja/caneca3.jpg");
+    background-size: cover;
+}
+
+.caixa{
+    background-image: url("loja/caixa.jpg");
+    background-size: cover;
+}
+
+.chinelo{
+    background-image: url("loja/chinelo.jpg");
+    background-size: cover;
+}
+
+.box{
+    background-image: url("loja/box.jpg");
+    background-size: cover;
+}
+
+.travesseiro{
+    background-image: url("loja/travesseiro.jpg");
+    background-size: cover;
+}
+
+
+
+.toalha figcaption{
+    padding-bottom: 1.5em;
+}
+
+.l{
+    display: flex;
+    justify-content: center;
+}
+
+.prom{
+    margin: 6em;
+    justify-content: center;
+}

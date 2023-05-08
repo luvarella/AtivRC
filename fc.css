@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("fundoazulroberto.png");
+    background-size: cover;
+    text-align: center;
+}
+
+header{
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+header li img{
+    height: 32px;
+}
+
+h1 img{
+    height: 200px;
+    padding-left: 1em;
+    text-align: left;
+}
+
+header ol{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+header a:hover{
+    color: red;
+}
+
+footer{
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+footer h1 img{
+    width: 208px;
+}
+
+.socialmed{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    width: 208px;
+   /* margin-right: -30em;
+    margin-top: -4em;
+    padding-left: 30em;*/
+}
+
+footer li{
+    display: inline;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color: red;
+}
+
+.nav{
+    list-style-type: none;
+    font-family: arial;
+    text-align: center;
+   /* margin-right: -30em;
+    margin-top: -4em;
+    padding-left: 1em;*/
+}
+
+.socialmed img{
+    height: 32px;
+    text-align: right;
+}
+
+h2{
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+}
+
+h4{
+    text-align: left;
+    margin-left: 1.75em;
+    margin-bottom: 1em;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.inicio img{
+    width: 25em;
+}
+
+.inicio div{
+    width: 25em;
+}
+
+p{
+    text-align: left;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+}
+
+form{
+    border: 2px solid white;
+    width: 25em;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+form div{
+    padding: 1em;
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+
+}
+
+.form{
+    text-align: center;
+    margin-bottom: 5em;
+}

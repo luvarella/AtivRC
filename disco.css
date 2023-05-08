@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("fundoazulroberto.png");
+    background-size: cover;
+    text-align: center;
+}
+
+header{
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+header li img{
+    height: 32px;
+}
+
+h1 img{
+    height: 200px;
+    padding-left: 1em;
+    text-align: left;
+}
+
+header ol{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+header a:hover{
+    color: red;
+}
+
+footer{
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+footer h1 img{
+    width: 208px;
+}
+
+.socialmed{
+    list-style-type: none;
+    font-family: arial;
+    text-align: right;
+    width: 208px;
+   /* margin-right: -30em;
+    margin-top: -4em;
+    padding-left: 30em;*/
+}
+
+footer li{
+    display: inline;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer a:hover{
+    color: red;
+}
+
+.nav{
+    list-style-type: none;
+    font-family: arial;
+    text-align: center;
+   /* margin-right: -30em;
+    margin-top: -4em;
+    padding-left: 1em;*/
+}
+
+.socialmed img{
+    height: 32px;
+    text-align: right;
+}
+
+h2{
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+}
+
+h4{
+    text-align: left;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+
+/*.disc{
+    display: flex;
+    justify-content: center;
+}*/
+
+.parte1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte1 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+div figure{
+    height: 6em;
+    width: 6em;
+}
+
+.seisum{
+    background-image: url("disco/61.jpg");
+    background-size: cover;
+}
+
+.seistres{
+    background-image: url("disco/63.jpg");
+    background-size: cover;
+}
+
+.seisquatro{
+    background-image: url("disco/64.jpg");
+    background-size: cover;
+}
+
+.seiscinco{
+    background-image: url("disco/65.jpg");
+    background-size: cover;
+}
+
+.seiscinco-2{
+    background-image: url("disco/652.jpg");
+    background-size: cover;
+}
+
+.seisseis{
+    background-image: url("disco/66.jpg");
+    background-size: cover;
+}
+
+.parte2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte2 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.seisseis-2{
+    background-image: url("disco/662.jpg");
+    background-size: cover;
+}
+
+.seissete{
+    background-image: url("disco/67.jpg");
+    background-size: cover;
+}
+
+.seissoito{
+    background-image: url("disco/68.jpg");
+    background-size: cover;
+}
+
+.seisnove{
+    background-image: url("disco/69.jpg");
+    background-size: cover;
+}
+
+.setezero{
+    background-image: url("disco/70.jpg");
+    background-size: cover;
+}
+
+.seteum{
+    background-image: url("disco/71.jpg");
+    background-size: cover;
+}
+
+.parte3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte3 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.setedois{
+    background-image: url("disco/72.jpg");
+    background-size: cover;
+}
+
+.setetres{
+    background-image: url("disco/73.jpg");
+    background-size: cover;
+}
+
+.setequatro{
+    background-image: url("disco/74.jpg");
+    background-size: cover;
+}
+
+.setecinco{
+    background-image: url("disco/75.jpg");
+    background-size: cover;
+}
+
+.seteseis{
+    background-image: url("disco/76.jpg");
+    background-size: cover;
+}
+
+.setesete{
+    background-image: url("disco/77.jpg");
+    background-size: cover;
+}
+
+.parte4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte4 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.setesete-2{
+    background-image: url("disco/772.jpg");
+    background-size: cover;
+}
+
+.seteoito{
+    background-image: url("disco/78.jpg");
+    background-size: cover;
+}
+
+.setenove{
+    background-image: url("disco/79.jpg");
+    background-size: cover;
+}
+
+.oitozero{
+    background-image: url("disco/80.jpg");
+    background-size: cover;
+}
+
+.oitozero-2{
+    background-image: url("disco/802.jpg");
+    background-size: cover;
+}
+
+.oitoum{
+    background-image: url("disco/81.jpg");
+    background-size: cover;
+}
+
+.parte5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte5 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.oitodois{
+    background-image: url("disco/82.jpg");
+    background-size: cover;
+}
+
+.oitotres{
+    background-image: url("disco/83.jpg");
+    background-size: cover;
+}
+
+.oitoquatro{
+    background-image: url("disco/84.jpg");
+    background-size: cover;
+}
+
+.oitocinco{
+    background-image: url("disco/85.jpg");
+    background-size: cover;
+}
+
+.oitoseis{
+    background-image: url("disco/86.jpg");
+    background-size: cover;
+}
+
+.oitosete{
+    background-image: url("disco/87.jpg");
+    background-size: cover;
+}
+
+.parte6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte6 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.oitooito{
+    background-image: url("disco/88.jpg");
+    background-size: cover;
+}
+
+.oitooito-2{
+    background-image: url("disco/882.jpg");
+    background-size: cover;
+}
+
+.oitonove{
+    background-image: url("disco/89.jpg");
+    background-size: cover;
+}
+
+.novezero{
+    background-image: url("disco/90.jpg");
+    background-size: cover;
+}
+
+.noveum{
+    background-image: url("disco/91.jpg");
+    background-size: cover;
+}
+
+.novedois{
+    background-image: url("disco/92.jpg");
+    background-size: cover;
+}
+
+.parte7{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte7 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.novetres{
+    background-image: url("disco/93.jpg");
+    background-size: cover;
+}
+
+.novequatro{
+    background-image: url("disco/94.jpg");
+    background-size: cover;
+}
+
+.novecinco{
+    background-image: url("disco/95.jpg");
+    background-size: cover;
+}
+
+.noveseis{
+    background-image: url("disco/96.jpg");
+    background-size: cover;
+}
+
+.novesete{
+    background-image: url("disco/97.jpg");
+    background-size: cover;
+}
+
+.noveoito{
+    background-image: url("disco/98.jpg");
+    background-size: cover;
+}
+
+.parte8{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte8 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.noveoito-2{
+    background-image: url("disco/982.jpg");
+    background-size: cover;
+}
+
+.doismil{
+    background-image: url("disco/20.jpg");
+    background-size: cover;
+}
+
+.doismilum{
+    background-image: url("disco/201.jpg");
+    background-size: cover;
+}
+
+.doismildois{
+    background-image: url("disco/2002.jpg");
+    background-size: cover;
+}
+
+.doismiltres{
+    background-image: url("disco/203.jpg");
+    background-size: cover;
+}
+
+.doismilcinco{
+    background-image: url("disco/205.jpg");
+    background-size: cover;
+}
+
+.parte9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte9 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.doismilquatro{
+    background-image: url("disco/204.jpg");
+    background-size: cover;
+}
+
+.doismilcinco-2{
+    background-image: url("disco/2052.jpg");
+    background-size: cover;
+}
+
+.doismilcinco-3{
+    background-image: url("disco/2053.jpg");
+    background-size: cover;
+}
+
+.doismilcinco-4{
+    background-image: url("disco/2054.jpg");
+    background-size: cover;
+}
+
+.doismiloito{
+    background-image: url("disco/208.jpg");
+    background-size: cover;
+}
+
+.doismilnove{
+    background-image: url("disco/209.jpg");
+    background-size: cover;
+}
+
+.doismildez{
+    background-image: url("disco/2010.jpg");
+    background-size: cover;
+}
+
+.parte10{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte10 div{
+    padding: 2em;
+    margin: 2em;
+}
+
+.doismildoze{
+    background-image: url("disco/2012.jpg");
+    background-size: cover;
+}
+
+.doismildoze-2{
+    background-image: url("disco/20122.jpg");
+    background-size: cover;
+}
+
+.doismiltreze{
+    background-image: url("disco/2013.jpg");
+    background-size: cover;
+}
+
+.doismilcatorze{
+    background-image: url("disco/2014.jpg");
+    background-size: cover;
+}
+
+.doismildesessete{
+    background-image: url("disco/2017.jpg");
+    background-size: cover;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: arial;
+    font-style: bold;
+    padding: 1.5px;
+    position: center;
+    background-color: red;
+    opacity: 80%;
+    width: 5em;
+}
